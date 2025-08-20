@@ -3,6 +3,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import FlashLogo from "../images/flashcards.png";
 import { image } from "@heroui/theme";
+import GmailLogo from '../images/MailLogo.png'
 
 
 const containerVariants = {
@@ -27,10 +28,10 @@ const education = [
     desc: "The Educational web platform where users input any subject or topic and receive AI-generated dynamic flashcards (powered by Gemini API).Useful for self-study and test preparation across various fields. ",
   },
   {
-    title: "Flashcard Generator powered by AI",
-    image: FlashLogo,
-    subtitle: "https://skill-set-ai-hack.vercel.app",
-    desc: "The Educational web platform where users input any subject or topic and receive AI-generated dynamic flashcards (powered by Gemini API).Useful for self-study and test preparation across various fields. ",
+    title: "Smart e-email powered by AI",
+    image: GmailLogo,
+    subtitle: "https://n-factorial-ai-cup-2025-xxof.vercel.app/login",
+    desc: "A smart email client powered by AI that organizes your inbox, helps you find information instantly, and suggests quick replies. Automate the routine and focus on what really matters",
   },
   
 ];
