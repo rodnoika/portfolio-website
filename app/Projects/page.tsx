@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import FlashLogo from "../images/flashcards.png";
 import { image } from "@heroui/theme";
 import GmailLogo from '../images/MailLogo.png'
+import OCRLogo from '../images/OCR.png'
 
 
 const containerVariants = {
@@ -32,6 +33,18 @@ const education = [
     image: GmailLogo,
     subtitle: "https://n-factorial-ai-cup-2025-xxof.vercel.app/login",
     desc: "A smart email client powered by AI that organizes your inbox, helps you find information instantly, and suggests quick replies. Automate the routine and focus on what really matters",
+  },
+  {
+    title: "Koz OCR system",
+    image: OCRLogo,
+    subtitle: "https://huggingface.co/spaces/rodnoika/Koz_system-based-on-PaddleOCR",
+    desc: "A web-based tool that processes PDFs and images using PaddleOCR, with optional Gemini AI post-processing. It provides clean text, DOCX, Markdown, and structured JSON outputs, supports CPU/GPU, and features an easy Gradio UI for user interaction.",
+  },
+  {
+    title: "Agai-DevSecOps-Ai-Assistant",
+    image: GmailLogo,
+    subtitle: "https://n-factorial-ai-cup-2025-xxof.vercel.app/login",
+    desc: "An interactive Streamlit dashboard for analyzing SSH, firewall, and honeypot logs. Supports anomaly detection (rules + ML), incident summarization, risk scoring, time-series forecasting, natural language queries with Gemini, and real-time blocklist management.",
   },
   
 ];

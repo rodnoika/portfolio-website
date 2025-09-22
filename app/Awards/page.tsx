@@ -19,6 +19,10 @@ const itemVariants = {
 
 const achievements = [
   {
+    title: "1st place ($600 prize)",
+    desc: "Won 1st place in the Shai.Pro case at Datathon’25 (NU Data Sci Club). Built an MVP in 24 hours using ML/AI technologies, recognized by the jury as the best project in the case.",
+  },
+  {
     title: "2nd place (Silver)",
     desc: "Republican Scientific Projects Competition Daryn 2024–2025 – Presented project 'Cerebro Rhythm' on how music affects concentration and relaxation.",
   },
