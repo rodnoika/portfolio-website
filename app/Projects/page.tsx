@@ -5,6 +5,7 @@ import FlashLogo from "../images/flashcards.png";
 import { image } from "@heroui/theme";
 import GmailLogo from '../images/MailLogo.png'
 import OCRLogo from '../images/OCR.png'
+import DevSecOpsLogo from '../images/agai.png'
 
 
 const containerVariants = {
@@ -42,8 +43,8 @@ const education = [
   },
   {
     title: "Agai-DevSecOps-Ai-Assistant",
-    image: GmailLogo,
-    subtitle: "https://n-factorial-ai-cup-2025-xxof.vercel.app/login",
+    image: DevSecOpsLogo,
+    subtitle: "https://rodnoika-datathon-shaipro-streamlit-app-2melge.streamlit.app/",
     desc: "An interactive Streamlit dashboard for analyzing SSH, firewall, and honeypot logs. Supports anomaly detection (rules + ML), incident summarization, risk scoring, time-series forecasting, natural language queries with Gemini, and real-time blocklist management.",
   },
   
